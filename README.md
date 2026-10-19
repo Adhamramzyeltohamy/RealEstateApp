@@ -10,25 +10,25 @@ A mobile-friendly, multi-role cloud-based SaaS platform built with **Python (Fla
 
 ### 1. 🌐 Public Customer Portal
 Search available properties, filter by type/budget, and view real-time unit status.
-![Public Customer Portal](RealEstateApp/static/images/WhatsApp%20Image%202026-10-19%20at%203.45.00%20AM.jpeg)
+![Public Customer Portal](static/images/WhatsApp20Image202026-10-1920at203.45.0020AM.jpeg)
 
 ---
 
 ### 2. 🔐 Authentication & Portal Selection
 Role-based portal access for Tenants and System Managers.
-![Login Portal](RealEstateApp/static/images/WhatsAppImage2026-10-19at3.45.24AM.jpeg)
+![Login Portal](static/images/WhatsApp20Image202026-10-1920at203.45.2420AM.jpeg)
 
 ---
 
 ### 3. 📊 Manager Analytics Dashboard
 Real-time management metrics covering revenue collection, occupancy rates, and active bookings.
-![Manager Dashboard](RealEstateApp/static/images/WhatsApp%20Image%202026-10-19%20at%203.46.07%20AM.jpeg)
+![Manager Dashboard](static/images/WhatsApp20Image202026-10-1920at203.46.0720AM.jpeg)
 
 ---
 
 ### 4. 🏢 Property Portfolio Management
 Full CRUD controls for property listings, photos, and tenancy status.
-![Property Management](RealEstateApp/static/images/WhatsApp%20Image%202026-10-19%20at%203.46.15%20AM.jpeg)
+![Property Management](static/images/WhatsApp20Image202026-10-1920at203.46.1520AM.jpeg)
 
 ---
 
@@ -62,29 +62,3 @@ Full CRUD controls for property listings, photos, and tenancy status.
    ```bash
    git clone [https://github.com/Adhamramzyeltohamy/RealEstateApp.git](https://github.com/Adhamramzyeltohamy/RealEstateApp.git)
    cd RealEstateApp
-   ```
-
-2. **Create and activate virtual environment:**
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-   ```
-
-3. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Environment Variables:**
-   Create a `.env` file in the root directory (refer to `.env.example`):
-   ```env
-   SUPABASE_URL=your_supabase_url
-   SUPABASE_PUBLISHABLE_KEY=your_supabase_key
-   FLASK_SECRET_KEY=your_secret_key
-   ```
-
-5. **Run the Application:**
-   ```bash
-   python app.py
-   ```
-   Open `http://127.0.0.1:5000` in your browser.
