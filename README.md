@@ -6,23 +6,37 @@ A mobile-friendly, multi-role cloud-based SaaS platform built with **Python (Fla
 
 ---
 
+## 📸 Screenshots & Platform Overview
+
+### 1. 🌐 Public Customer Portal
+Search available properties, filter by type/budget, and view real-time unit status.
+![Public Customer Portal](RealEstateApp/static/images/WhatsApp%20Image%202026-10-19%20at%203.45.00%20AM.jpeg)
+
+---
+
+### 2. 🔐 Authentication & Portal Selection
+Role-based portal access for Tenants and System Managers.
+![Login Portal](RealEstateApp/static/images/WhatsApp%20Image%202026-10-19%20at%203.45.24%20AM.jpeg)
+
+---
+
+### 3. 📊 Manager Analytics Dashboard
+Real-time management metrics covering revenue collection, occupancy rates, and active bookings.
+![Manager Dashboard](RealEstateApp/static/images/WhatsApp%20Image%202026-10-19%20at%203.46.07%20AM.jpeg)
+
+---
+
+### 4. 🏢 Property Portfolio Management
+Full CRUD controls for property listings, photos, and tenancy status.
+![Property Management](RealEstateApp/static/images/WhatsApp%20Image%202026-10-19%20at%203.46.15%20AM.jpeg)
+
+---
+
 ## 🌟 Key Features
 
-### 1. 👥 Public Customer Portal
-* **Property Search & Discovery:** Filter properties by type (Studio, 1 BHK, 2 BHK, etc.), location, and maximum rent.
-* **Photo Galleries & Details:** View high-resolution photos and property specs.
-* **Online Booking & IBAN Payments:** Submit rental applications and receive unique payment reference codes.
-
-### 2. 🏠 Existing Tenant Portal
-* **Tenancy Dashboard:** View active tenancy status and upcoming monthly invoices.
-* **Rent Payments:** Upload bank transfer receipts for verification.
-* **Maintenance & Complaints:** Submit problem reports with photo attachments and track resolution status in real-time.
-
-### 3. 🛡️ Manager Console & Analytics
-* **Dashboard & Metrics:** Real-time metrics for occupied units, monthly revenue collected, outstanding rent, and active bookings.
-* **Property & Photo Management:** Add/edit property listings and upload images directly to cloud storage.
-* **Financial Verification:** Review and verify/reject tenant bank transfers.
-* **Maintenance Workflow:** Assign, comment, and resolve maintenance tickets.
+* **Public Customer Portal:** Search rooms/apartments, view property details/photos, apply online, and receive automated IBAN payment references.
+* **Tenant Dashboard:** View active contracts, track monthly rent invoices, upload bank transfer receipts, and report maintenance issues with photos.
+* **Manager Console:** Manage buildings and units, verify/reject bank payments, oversee occupancy rates, and handle maintenance tickets.
 
 ---
 
@@ -32,7 +46,7 @@ A mobile-friendly, multi-role cloud-based SaaS platform built with **Python (Fla
 * **Database & BaaS:** Supabase (PostgreSQL)
 * **Storage:** Supabase Object Storage
 * **Frontend:** Responsive HTML5, CSS3, JavaScript
-* **Deployment:** PythonAnywhere
+* **Hosting:** PythonAnywhere
 
 ---
 
@@ -46,8 +60,8 @@ A mobile-friendly, multi-role cloud-based SaaS platform built with **Python (Fla
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/Adhamramzyeltohamy/Real-Estate-Management-System.git](https://github.com/Adhamramzyeltohamy/Real-Estate-Management-System.git)
-   cd Real-Estate-Management-System
+   git clone [https://github.com/Adhamramzyeltohamy/RealEstateApp.git](https://github.com/Adhamramzyeltohamy/RealEstateApp.git)
+   cd RealEstateApp
    ```
 
 2. **Create and activate virtual environment:**
