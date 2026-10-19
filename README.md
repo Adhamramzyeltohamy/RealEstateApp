@@ -10,25 +10,25 @@ A mobile-friendly, multi-role cloud-based SaaS platform built with **Python (Fla
 
 ### 1. 🌐 Public Customer Portal
 Search available properties, filter by type/budget, and view real-time unit status.
-![Public Customer Portal](static/images/WhatsApp20Image202026-10-1920at203.45.0020AM.jpeg)
+![Public Customer Portal](static/images/WhatsApp Image 2026-10-19 at 3.45.00 AM.jpeg)
 
 ---
 
 ### 2. 🔐 Authentication & Portal Selection
 Role-based portal access for Tenants and System Managers.
-![Login Portal](static/images/WhatsApp20Image202026-10-1920at203.45.2420AM.jpeg)
+![Login Portal](static/images/WhatsApp Image 2026-10-19 at 3.45.24 AM.jpeg)
 
 ---
 
 ### 3. 📊 Manager Analytics Dashboard
 Real-time management metrics covering revenue collection, occupancy rates, and active bookings.
-![Manager Dashboard](static/images/WhatsApp20Image202026-10-1920at203.46.0720AM.jpeg)
+![Manager Dashboard](static/images/WhatsApp Image 2026-10-19 at 3.46.15 AM.jpeg)
 
 ---
 
 ### 4. 🏢 Property Portfolio Management
 Full CRUD controls for property listings, photos, and tenancy status.
-![Property Management](static/images/WhatsApp20Image202026-10-1920at203.46.1520AM.jpeg)
+![Property Management](static/images/WhatsApp Image 2026-10-19 at 3.45.00 AM.jpeg)
 
 ---
 
