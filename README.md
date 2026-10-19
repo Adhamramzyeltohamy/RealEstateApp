@@ -16,7 +16,7 @@ Search available properties, filter by type/budget, and view real-time unit stat
 
 ### 2. 🔐 Authentication & Portal Selection
 Role-based portal access for Tenants and System Managers.
-![Login Portal](RealEstateApp/static/images/WhatsApp%20Image%202026-10-19%20at%203.45.24%20AM.jpeg)
+![Login Portal](RealEstateApp/static/images/WhatsAppImage2026-10-19at3.45.24AM.jpeg)
 
 ---
 
