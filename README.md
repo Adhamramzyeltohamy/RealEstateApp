@@ -1,64 +1,52 @@
-# 🏢 Cloud Real Estate Rental & Tenant Management System
+# 🏢 Cloud-Based Real Estate & Tenant Management System (SaaS)
 
-A mobile-friendly, multi-role cloud-based SaaS platform built with **Python (Flask)** and **Supabase (PostgreSQL)** for real estate management, automated rental bookings, tenant operations, and maintenance workflows.
+A production-grade, mobile-friendly cloud platform designed to streamline real estate operations, rental bookings, tenant self-service, and maintenance ticket lifecycles[cite: 3, 4, 5]. Built with a robust **Python (Flask)** backend and integrated with **Supabase (PostgreSQL, Auth, & Object Storage)**[cite: 4, 8].
 
-🌐 **Live Demo:** [dhueru5u.pythonanywhere.com](https://dhueru5u.pythonanywhere.com/)
-
----
-
-## 📸 Screenshots & Platform Overview
-
-### 1. 🌐 Public Customer Portal
-Search available properties, filter by type/budget, and view real-time unit status.
-![Public Customer Portal](static/images/WhatsApp Image 2026-10-19 at 3.45.00 AM.jpeg)
+🌐 **Live Application:** [https://dhueru5u.pythonanywhere.com/](https://dhueru5u.pythonanywhere.com/)
 
 ---
 
-### 2. 🔐 Authentication & Portal Selection
-Role-based portal access for Tenants and System Managers.
-![Login Portal](static/images/WhatsApp Image 2026-10-19 at 3.45.24 AM.jpeg)
+## 📸 System Showcase & Visual Tour
+
+### 1. 🌐 Public Customer Discovery Portal
+* Allows prospective tenants to search available inventory, filter by property type (Studio, 1 BHK, 2 BHK, Villa) and max budget[cite: 4, 16].
+* Displays property specs, photo galleries, and enables instant booking with unique IBAN reference generation[cite: 4, 5, 17, 19].
+
+![Public Customer Portal](static/images/public.jpeg)
 
 ---
 
-### 3. 📊 Manager Analytics Dashboard
-Real-time management metrics covering revenue collection, occupancy rates, and active bookings.
-![Manager Dashboard](static/images/WhatsApp Image 2026-10-19 at 3.46.15 AM.jpeg)
+### 2. 🔐 Multi-Tenant Authentication & Portal Selection
+* Dual-role portal gateway directing users to either the Tenant Self-Service Area or the Property Management Console[cite: 4, 5, 21].
+
+![Login & Gateway Portal](static/images/login.jpeg)
 
 ---
 
-### 4. 🏢 Property Portfolio Management
-Full CRUD controls for property listings, photos, and tenancy status.
-![Property Management](static/images/WhatsApp Image 2026-10-19 at 3.45.00 AM.jpeg)
+### 3. 📊 Property Manager Analytics Dashboard
+* Real-time financial and operational metrics, including collected monthly revenue, outstanding rent, occupancy rates, and pending payment verifications[cite: 4, 5, 20].
+
+![Manager Analytics Dashboard](static/images/admindash.jpeg)
 
 ---
 
-## 🌟 Key Features
+### 4. 🏢 Property Portfolio & Unit Inventory Management
+* Complete inventory control allowing property managers to list units, toggle availability statuses, edit pricing, and manage media assets[cite: 4, 5, 17].
 
-* **Public Customer Portal:** Search rooms/apartments, view property details/photos, apply online, and receive automated IBAN payment references.
-* **Tenant Dashboard:** View active contracts, track monthly rent invoices, upload bank transfer receipts, and report maintenance issues with photos.
-* **Manager Console:** Manage buildings and units, verify/reject bank payments, oversee occupancy rates, and handle maintenance tickets.
-
----
-
-## 🛠️ Tech Stack & Architecture
-
-* **Backend:** Python / Flask
-* **Database & BaaS:** Supabase (PostgreSQL)
-* **Storage:** Supabase Object Storage
-* **Frontend:** Responsive HTML5, CSS3, JavaScript
-* **Hosting:** PythonAnywhere
+![Property Inventory Console](static/images/adminv.jpeg)
 
 ---
 
-## 🚀 Getting Started
+## 🏗️ System Architecture & Workflow Mechanics
 
-### Prerequisites
-* Python 3.10+
-* Supabase Account & Project
+### 🔄 1. Automated Booking & IBAN Payment Flow
+1. **Application Submission:** Customer selects an available unit and submits personal/occupancy details[cite: 4, 18, 19].
+2. **Reference Code Generation:** System automatically locks the unit context and generates a unique tracking code (e.g., `REA-2026-A203-0051`)[cite: 19].
+3. **IBAN Transfer:** System presents company bank transfer details directly from database settings[cite: 19].
+4. **Receipt Upload:** Customer uploads bank transfer receipt screenshot to cloud storage[cite: 4, 19].
+5. **Manager Audit:** Property manager verifies arriving funds in bank records and clicks **Confirm Payment**[cite: 4, 20].
+6. **State Transition:** Transaction status updates to `PAID`, Application to `APPROVED`, and Property status automatically switches to `RESERVED` / `OCCUPIED`[cite: 20].
 
-### Installation & Local Setup
+---
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/Adhamramzyeltohamy/RealEstateApp.git](https://github.com/Adhamramzyeltohamy/RealEstateApp.git)
-   cd RealEstateApp
+### 🛠️ 2. Maintenance & Complaint Ticket Lifecycle
